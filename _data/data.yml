@@ -91,16 +91,16 @@ experiences:
             - Developed some library for signale process.
 
 
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+projects:
+    title: Projects
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Chain Insight DAO
+        link: https://github.com/team-tissis/cInsightDAO
+        tagline: study meeting DAO project
 
 #       - title: DevStudio
 #         link: "#"
@@ -128,7 +128,7 @@ oss:
       - title: A-CLASS
         link: "https://github.com/Matsushima-lab/A-CLASS"
         tagline: Additive Cumulative Logit Molde with Attribute-wiSe invariance
-
+      
 publications:
     title: Publications
     papers:
