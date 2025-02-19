@@ -23,7 +23,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@iyorieth'
+    twitter: '@hiroyaiyori'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -43,7 +43,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: blockchain
+        - item: video engineering
           link:
 
         - item: machine learning
@@ -54,8 +54,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am experienced in developing machine learning models, libraries, and mobile applications since 2019.
-      I am currently focused on developing various blockchain-related applications.
+      I am experienced in developing machine learning models, web applications and mobile applications since 2019.
+      I am currently focused on developing NoLang.
+
 education:
     title: Education
     info:
@@ -64,7 +65,6 @@ education:
         time: 2021 - 2023
         details: |
           My research topic was to handle ordinal scale variables in machine learning with interpreatability.
-            - https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=218639&item_no=1
 
       - degree: Bachelor of Engineering
         time: 2017 - 2021
@@ -75,10 +75,19 @@ experiences:
     title: Experiences
     info:
       - role: Software Engineer
-        time: 2022 - Present
+        time: 2024 - Present
+        company: Mavericks Inc., Tokyo
+        details: |
+          Working as a full-stack engineer. Main Devoloper of NoLang (Video Generation Web Application).
+            - System Architecture Design with AWS (S3, EC2, CloudFront, Route53, AWS CDK, etc.)
+            - Backend Development (Django, FFMPEG)
+            - Database Design (PostgreSQL)
+          
+      - role: Software Engineer
+        time: 2022 - 2023
         company: STANDARD Inc., Tokyo
         details: |
-          I am working as a web3 engineer.
+          worked as a web3 engineer.
             - Developed smart contract.
             - Analyzed variaous onchain data.
       - role: Software Engineer Intern
@@ -97,6 +106,11 @@ projects:
     #   You can list your side projects in this
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: NoLang
+        link: https://no-lang.com/
+        tagline: Video Generation Web Application
+
     assignments:
       - title: Chain Insight DAO
         link: https://github.com/team-tissis/cInsightDAO
@@ -132,6 +146,10 @@ oss:
 publications:
     title: Publications
     papers:
+      - title: 順序回帰のための全変動正則化付き加法累積ロジットモデル
+        link: https://ipsj.ixsq.nii.ac.jp/records/218579
+        authors: Hiroya Iyori; Shin Matsushima
+        conference: 情報処理学会
       - title: HARU Sleep A Deep Learning-Based Sleep Scoring System With Wearable Sheet-Type Frontal EEG Sensors
         link: "https://ieeexplore.ieee.org/abstract/document/9693520"
         authors: Shoya Matsumori; Kosei Teramoto; Hiroya Iyori; Takanori Soda; Shusuke Yoshimoto; Haruo Mizutani
@@ -141,19 +159,22 @@ skills:
     title: Skills &amp; Proficiency
     toolset:
       - name: Python
-        level: 98%
+        level: 90%
 
-      - name: Solidity
-        level: 98%
-
-      - name: C++
+      - name: AWS
         level: 70%
 
-      - name: Rust
+      - name: Solidity
         level: 50%
 
-      - name: Java
+      - name: C++
         level: 50%
+
+      - name: Rust
+        level: 30%
+
+      - name: Java
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
